@@ -53,20 +53,5 @@ app.get('/offer', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
-Running the server:
-Save the above code in a file named server.js. Then, run the server using:
-
-bash
-Copy code
-node server.js
-Testing the server:
-You can use the provided curl command to test the server.
-
-Remember to replace YOUR_KEY_ID and YOUR_PRIVATE_KEY_CONTENT_HERE with your actual key ID and private key PEM string from App Store Connect.
-
-
-
-
-
 
 ```
